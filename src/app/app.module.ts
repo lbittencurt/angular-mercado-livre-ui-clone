@@ -8,6 +8,11 @@ import { HeaderComponent } from './components/header/header.component';
 import { LayoutComponent } from './components/layout/layout.component';
 import { ProductComponent } from './components/product/product.component';
 import { SellerInfoComponent } from './components/seller-info/seller-info.component';
+import { ProductActionComponent } from './components/product-action/product-action.component';
+
+import { HeartIcon } from './icons/heart-icon'
+import { CheckIcon } from './icons/check-icon'
+import { ShieldCheckIcon } from './icons/shield-check-icon'
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { SellerInfoComponent } from './components/seller-info/seller-info.compon
     HeaderComponent,
     LayoutComponent,
     ProductComponent,
-    SellerInfoComponent
+    SellerInfoComponent,
+    ProductActionComponent,
+
+    HeartIcon,
+    CheckIcon,
+    ShieldCheckIcon
   ],
   imports: [
     BrowserModule,
